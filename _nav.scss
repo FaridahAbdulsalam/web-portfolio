@@ -1,14 +1,14 @@
 @use "./variables" as *;
 
 .nav{
-    
+    border: solid 1px hotpink;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px;
 
     .nav__name{
-        font-size: 18px;
+        font-size: $secondary-fontsize;
         color: $secondary-colour;
     }
     

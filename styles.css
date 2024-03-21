@@ -1,11 +1,12 @@
 .nav {
+  border: solid 1px hotpink;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 10px;
 }
 .nav .nav__name {
-  font-size: 18px;
+  font-size: 20px;
   color: rgb(66, 30, 126);
 }
 .nav .nav__menu {
