@@ -32,6 +32,27 @@
   font-weight: bold;
 }
 
+.main {
+  border: solid 1px red;
+}
+.main .intro {
+  border: solid 1px orange;
+}
+.main .intro .intro__greeting-container {
+  border: solid 1px blue;
+}
+.main .intro .intro__greeting-container .intro__greeting {
+  border: solid 1px yellow;
+  font-size: 20px;
+  color: grey;
+}
+.main .intro .intro__greeting-container .intro__bio {
+  border: solid 1px green;
+  width: 40%;
+  font-size: 34px;
+  color: rgb(66, 30, 126);
+}
+
 * {
   margin: 0;
   padding: 0;
