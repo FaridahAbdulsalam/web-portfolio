@@ -1,45 +1,38 @@
 @use "./variables" as *;
 
 #main{
-    // border: solid 1px red;
+    border: solid 1px red;
 
     #intro{
-        // border: solid 1px orange;
+        border: solid 1px orange;       
+        
+        .intro__greeting{
+            // border: solid 1px yellow;
+            font-size: $tiertiary-fontsize ;
+            color: $teirtiary-colour;
+            padding-bottom: 30px;
+        }
 
-        .intro__greeting-container{
-            // border: solid 1px blue;
+        .intro__bio{
             display: flex;
-            flex-direction: column;
-            justify-items: center;   
-            align-items: center;         
-            
-            .intro__greeting{
-                // border: solid 1px yellow;
-                font-size: $tiertiary-fontsize ;
-                color: $teirtiary-colour;
-                padding-bottom: 30px;
-            }
+            justify-content: space-between;
+            align-items: center;
+            // border: solid 1px green;
+            width: 40%; //change to in media query
+            font-size: $primary-fontsize;
+            color: $secondary-colour;
 
-            .intro__bio{
-                display: flex;
-                justify-content: space-between;
-                align-items: center;
-                // border: solid 1px green;
-                width: 40%; //change to in media query
-                font-size: $primary-fontsize;
-                color: $secondary-colour;
-
-                img{
-                    display: none; //remove in media query
-                    height: 20vh;
-                }
+            img{
+                display: none; //remove in media query
+                height: 20vh;
             }
         }
+        
     }
 
     #about{
         .about__container{
-            // border: solid 1px purple;
+            border: solid 1px purple;
             display: flex;
             flex-direction: column;
             justify-content: center;
@@ -61,10 +54,13 @@
                 // border: solid 1px orange;
                 font-size: $paragraphs;
                 color: $teirtiary-colour;
-                width: 60%;
                 padding: 20px
             }
         }
+    }
+
+    #skills{
+        border: 1px solid indianred;
     }
 
 }
