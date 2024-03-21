@@ -8,9 +8,12 @@
 .nav .nav__name {
   font-size: 20px;
   color: rgb(66, 30, 126);
+  display: inline-block;
+  width: 60%;
 }
 .nav .nav__name #nav__icon {
   color: rgba(213, 176, 243, 0.911);
+  margin-right: 5px;
 }
 .nav .nav__menu {
   padding: 10px;

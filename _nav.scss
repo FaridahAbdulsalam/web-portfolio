@@ -8,11 +8,15 @@
     padding: 10px;
 
     .nav__name{
+        // border: solid 1px;
         font-size: $secondary-fontsize;
         color: $secondary-colour;
+        display: inline-block;
+        width: 60%;
 
         #nav__icon{
             color: $primary-colour;
+            margin-right: 5px;
         }
     }
     
