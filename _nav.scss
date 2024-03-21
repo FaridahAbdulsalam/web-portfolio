@@ -10,6 +10,10 @@
     .nav__name{
         font-size: $secondary-fontsize;
         color: $secondary-colour;
+
+        #nav__icon{
+            color: $primary-colour;
+        }
     }
     
     .nav__menu{
