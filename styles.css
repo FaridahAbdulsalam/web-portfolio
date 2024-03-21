@@ -59,30 +59,53 @@
   display: none;
   height: 20vh;
 }
-#main #about .about__container {
+#main #about {
   border: solid 1px purple;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
 }
-#main #about .about__container .about__title {
+#main #about .about__title {
   border: solid 1px salmon;
   color: rgb(66, 30, 126);
   font-size: 26px;
 }
-#main #about .about__container img {
+#main #about img {
   max-width: 100%;
   height: 35vh;
   padding-top: 30px;
 }
-#main #about .about__container .about__description {
+#main #about .about__description {
   font-size: 15px;
   color: grey;
   padding: 20px;
 }
 #main #skills {
   border: 1px solid indianred;
+}
+#main #skills .skills__title {
+  border: solid 1px blue;
+  padding: 10px;
+  font-size: 26px;
+  color: rgb(66, 30, 126);
+  width: 80%;
+  text-align: center;
+}
+#main #skills .skills__description {
+  border: solid 1px red;
+  text-align: center;
+  color: grey;
+  padding: 20px;
+  width: 80%;
+  margin: 0 auto;
+}
+#main #skills .skills__icons-container {
+  border: solid 1px green;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 5px;
+  width: 80%;
+}
+#main #skills .skills__icons-container img {
+  padding: 10px;
 }
 
 * {
