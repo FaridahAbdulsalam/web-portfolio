@@ -1,35 +1,32 @@
-.nav {
+#nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.nav .nav__name {
+#nav .nav__name {
   font-size: 20px;
   color: rgb(66, 30, 126);
-  display: inline-block;
-  width: 60%;
 }
-.nav .nav__name #nav__code-icon {
+#nav .nav__name #nav__code-icon {
   color: rgba(213, 176, 243, 0.911);
   margin-right: 5px;
 }
-.nav #nav__menu-icon {
+#nav #nav__menu-icon {
   color: grey;
 }
-.nav .nav__menu {
+#nav .nav__menu {
   display: none;
-  width: 100%;
   justify-content: space-evenly;
   align-items: center;
 }
-.nav .nav__menu li {
+#nav .nav__menu li {
   list-style-type: none;
 }
-.nav .nav__menu li a {
+#nav .nav__menu li a {
   text-decoration: none;
   color: grey;
 }
-.nav .nav__menu li button {
+#nav .nav__menu li button {
   border-radius: 5px;
   padding: 5px;
   background-color: rgba(213, 176, 243, 0.911);
@@ -38,26 +35,66 @@
   font-weight: bold;
 }
 
-.main .intro .intro__greeting-container .intro__greeting {
+#main #intro .intro__greeting-container {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+}
+#main #intro .intro__greeting-container .intro__greeting {
   font-size: 20px;
   color: grey;
   padding-bottom: 30px;
 }
-.main .intro .intro__greeting-container .intro__bio {
+#main #intro .intro__greeting-container .intro__bio {
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 40%;
-  font-size: 34px;
+  font-size: 40px;
   color: rgb(66, 30, 126);
 }
-.main .intro .intro__greeting-container .intro__bio img {
+#main #intro .intro__greeting-container .intro__bio img {
   display: none;
   height: 20vh;
 }
+#main #about .about__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#main #about .about__container .about__title {
+  border: solid 1px salmon;
+  color: rgb(66, 30, 126);
+  font-size: 26px;
+}
+#main #about .about__container img {
+  max-width: 100%;
+  height: 35vh;
+  padding-top: 30px;
+}
+#main #about .about__container .about__description {
+  font-size: 15px;
+  color: grey;
+  width: 60%;
+  padding: 20px;
+}
 
 * {
-  margin: 8px;
+  margin: 0px;
   padding: 0px;
   box-sizing: border-box;
+}
+
+.body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  max-width: 100%;
+  padding: 10%;
 }/*# sourceMappingURL=styles.css.map */

@@ -3,9 +3,22 @@
 @use "./main" as *;
 
 *{
-    margin: 8px;
+    margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    // max-width: 100%;
+}
+
+.body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container{
+    max-width: 100%;
+    padding: 10%;
 }
 
 
