@@ -1,5 +1,4 @@
 #nav {
-  border: solid 1px hotpink;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -36,12 +35,6 @@
   font-weight: bold;
 }
 
-#main {
-  border: solid 1px red;
-}
-#main #intro {
-  border: solid 1px orange;
-}
 #main #intro .intro__greeting {
   font-size: 20px;
   color: grey;
@@ -59,11 +52,7 @@
   display: none;
   height: 20vh;
 }
-#main #about {
-  border: solid 1px purple;
-}
 #main #about .about__title {
-  border: solid 1px salmon;
   color: rgb(66, 30, 126);
   font-size: 26px;
 }
@@ -77,11 +66,7 @@
   color: grey;
   padding: 20px;
 }
-#main #skills {
-  border: 1px solid indianred;
-}
 #main #skills .skills__title {
-  border: solid 1px blue;
   padding: 10px;
   font-size: 26px;
   color: rgb(66, 30, 126);
@@ -89,7 +74,6 @@
   text-align: center;
 }
 #main #skills .skills__description {
-  border: solid 1px red;
   text-align: center;
   color: grey;
   padding: 20px;
@@ -97,7 +81,6 @@
   margin: 0 auto;
 }
 #main #skills .skills__icons-container {
-  border: solid 1px green;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, 1fr);
@@ -112,13 +95,16 @@
   max-height: 100%;
   width: auto;
 }
-#main #project {
-  border: solid 1px hotpink;
-}
-#main #project .project__heading {
+#main .project__heading {
   color: rgb(66, 30, 126);
   font-size: 26px;
-  padding-bottom: 25px;
+  padding: 25px;
+}
+#main #project {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: space-between;
 }
 #main #project .project__img {
   display: grid;
@@ -129,12 +115,12 @@
   max-width: 100%;
 }
 #main #project .project__card {
-  border: 1px solid goldenrod;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
   height: auto;
+  padding: 20px 0px;
 }
 #main #project .project__card .project__skillset {
   font-size: 26px;
@@ -156,7 +142,7 @@
   background-color: white;
   border: black solid 1px;
   border-radius: 5px;
-  padding: 10px 15px;
+  padding: 10px 25px;
   text-align: center;
   font-weight: bold;
   font-size: 15px;

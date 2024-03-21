@@ -1,16 +1,17 @@
 @use "./variables" as *;
 
 #main{
-    border: solid 1px red;
+    // border: solid 1px red;
 
     #intro{
-        border: solid 1px orange;       
+        // border: solid 1px orange;       
         
         .intro__greeting{
             // border: solid 1px yellow;
             font-size: $tiertiary-fontsize ;
             color: $teirtiary-colour;
             padding-bottom: 30px;
+            
         }
 
         .intro__bio{
@@ -31,10 +32,10 @@
     }
 
     #about{
-        border: solid 1px purple;
+        // border: solid 1px purple;
 
         .about__title{
-            border: solid 1px salmon;
+            // border: solid 1px salmon;
             color: $secondary-colour;
             font-size: $secondary-fontsize;
         }
@@ -55,10 +56,10 @@
     }
 
     #skills{
-        border: 1px solid indianred;
+        // border: 1px solid indianred;
 
         .skills__title{
-            border: solid 1px blue;
+            // border: solid 1px blue;
             padding: 10px;
             font-size: $secondary-fontsize;
             color: $secondary-colour;
@@ -67,7 +68,7 @@
         }
 
         .skills__description{
-            border: solid 1px red;
+            // border: solid 1px red;
             text-align: center;
             color: $teirtiary-colour;
             padding: 20px;
@@ -76,7 +77,7 @@
         }
 
         .skills__icons-container{
-            border: solid 1px green;
+            // border: solid 1px green;
             display: grid;
             grid-template-columns: repeat(3, 1fr);
             grid-template-rows: repeat(3, 1fr);
@@ -93,64 +94,72 @@
             }
         }
     }
-        #project{
-            border: solid 1px hotpink;
 
-            .project__heading{
-                color:$secondary-colour;
-                font-size: $secondary-fontsize;
-                padding-bottom: 25px;
-            }
+    .project__heading{
+        color:$secondary-colour;
+        font-size: $secondary-fontsize;
+        padding: 25px;
+    }
 
-            .project__img{
-                display: grid;
-                justify-content: center;
-                align-content: center;
-                
-                img{
-                    max-width: 100%;
-                }
-            }
 
-            .project__card{
-                border: 1px solid goldenrod;
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
-                align-items: flex-start;
-                height: auto;
+    #project{
+        // border: solid 1px #ff69b4;
+        display: flex;
+        flex-direction: column;
+        gap:20px;
+        justify-content: space-between;
+        
+        
 
-                .project__skillset{
-                    font-size: $secondary-fontsize;
-                    color: $secondary-colour;
-                }
-
-                .project__title{
-                    font-size: $primary-fontsize;
-                    color: $secondary-colour;
-                }
-
-                .project__description{
-                    padding-top: 20px;
-                    padding-bottom: 15px;
-                    width: 80%;
-                }
+        .project__img{
+            display: grid;
+            justify-content: center;
+            align-content: center;
             
-                .project__buttons{
-                    padding: 10px 0px;
-
-                    button{
-                        background-color: white;
-                        border: black solid 1px;
-                        border-radius: 5px;
-                        padding: 10px 15px;
-                        text-align: center;
-                        font-weight: bold;
-                        font-size: $paragraphs;   
-                    }
-                }
-                
+            img{
+                max-width: 100%;
             }
         }
+
+        .project__card{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+            height: auto;
+            padding: 20px 0px ;
+
+            .project__skillset{
+                font-size: $secondary-fontsize;
+                color: $secondary-colour;
+            }
+
+            .project__title{
+                font-size: $primary-fontsize;
+                color: $secondary-colour;
+            }
+
+            .project__description{
+                padding-top: 20px;
+                padding-bottom: 15px;
+                width: 80%;
+            }
+        
+            .project__buttons{
+                padding: 10px 0px;
+
+                button{
+                    background-color: white;
+                    border: black solid 1px;
+                    border-radius: 5px;
+                    padding: 10px 25px;
+                    text-align: center;
+                    font-weight: bold;
+                    font-size: $paragraphs;   
+                }
+            }
+            
+        }
+    }
 
 }
