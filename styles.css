@@ -1,5 +1,4 @@
 .nav {
-  border: solid 1px hotpink;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -8,14 +7,21 @@
 .nav .nav__name {
   font-size: 20px;
   color: rgb(66, 30, 126);
+  display: inline-block;
+  width: 60%;
 }
-.nav .nav__name #nav__icon {
+.nav .nav__name #nav__code-icon {
   color: rgba(213, 176, 243, 0.911);
+  margin-right: 5px;
+}
+.nav #nav__menu-icon {
+  color: grey;
+  padding-right: 20px;
 }
 .nav .nav__menu {
+  display: none;
   padding: 10px;
   width: 100%;
-  display: flex;
   justify-content: space-evenly;
   align-items: center;
 }
