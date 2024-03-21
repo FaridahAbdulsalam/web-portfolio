@@ -81,6 +81,7 @@
   margin: 0 auto;
 }
 #main #skills .skills__icons-container {
+  padding: 20%;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, 1fr);
