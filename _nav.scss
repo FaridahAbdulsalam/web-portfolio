@@ -1,5 +1,7 @@
+@use "./variables" as *;
+
 .nav{
-    border: solid 1px black; //remember to remove
+    
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -7,10 +9,11 @@
 
     .nav__name{
         font-size: 18px;
+        color: $secondary-colour;
     }
     
     .nav__menu{
-        border: solid 1px pink; //remember to remove
+        
         padding: 10px;
         width: 100%;
         display: flex;
@@ -22,10 +25,15 @@
 
             a{
                 text-decoration: none;
+                color: $teirtiary-colour;
             }
             button{
                 border-radius: 5px;
                 padding: 5px;
+                background-color: $primary-colour;
+                border: 1px solid $secondary-colour;
+                color: $secondary-colour;
+                font-weight: bold;
             }
         }
     }
