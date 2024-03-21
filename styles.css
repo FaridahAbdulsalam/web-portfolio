@@ -9,6 +9,9 @@
   font-size: 20px;
   color: rgb(66, 30, 126);
 }
+.nav .nav__name #nav__icon {
+  color: rgba(213, 176, 243, 0.911);
+}
 .nav .nav__menu {
   padding: 10px;
   width: 100%;
