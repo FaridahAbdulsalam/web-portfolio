@@ -1,3 +1,34 @@
 .nav{
-    border: solid 1px black;
+    border: solid 1px black; //remember to remove
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+
+    .nav__name{
+        font-size: 18px;
+    }
+    
+    .nav__menu{
+        border: solid 1px pink; //remember to remove
+        padding: 10px;
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+
+        li {
+            list-style-type: none;
+
+            a{
+                text-decoration: none;
+            }
+            button{
+                border-radius: 5px;
+                padding: 5px;
+            }
+        }
+    }
 }
+
+
