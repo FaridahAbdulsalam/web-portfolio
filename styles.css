@@ -41,25 +41,18 @@
   font-weight: bold;
 }
 
-.main {
-  border: solid 1px red;
-}
-.main .intro {
-  border: solid 1px orange;
-}
 .main .intro .intro__greeting-container {
-  border: solid 1px blue;
+  padding: 20px;
 }
 .main .intro .intro__greeting-container .intro__greeting {
-  border: solid 1px yellow;
   font-size: 20px;
   color: grey;
+  padding-bottom: 30px;
 }
 .main .intro .intro__greeting-container .intro__bio {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border: solid 1px green;
   width: 40%;
   font-size: 34px;
   color: rgb(66, 30, 126);
@@ -71,6 +64,6 @@
 
 * {
   margin: 0;
-  padding: 0;
+  padding: 0px;
   box-sizing: border-box;
 }/*# sourceMappingURL=styles.css.map */
