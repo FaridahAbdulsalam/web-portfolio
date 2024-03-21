@@ -1,0 +1,25 @@
+@use "./variables" as *;
+
+.main{
+    border: solid 1px red;
+    .intro{
+        border: solid 1px orange;
+
+        .intro__greeting-container{
+            border: solid 1px blue;
+            
+            .intro__greeting{
+                border: solid 1px yellow;
+                font-size:$secondary-fontsize ;
+                color: $teirtiary-colour;
+            }
+
+            .intro__bio{
+                border: solid 1px green;
+                width: 40%;
+                font-size: $primary-fontsize;
+                color: $secondary-colour;
+            }
+        }
+    }
+}
