@@ -153,6 +153,16 @@
   border: solid 1px pink;
   background-color: grey;
 }
+#footer .footer__icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: solid 1px pink;
+  width: 45%;
+}
+#footer .footer__icons li {
+  list-style-type: none;
+}
 
 * {
   margin: 0px;

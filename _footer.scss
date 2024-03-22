@@ -3,5 +3,16 @@
 #footer{
     border: solid 1px pink;
     background-color: grey;
-    
+
+    .footer__icons{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border: solid 1px pink;
+        width: 45%;
+
+        li{
+            list-style-type: none;
+        }
+    }
 }
