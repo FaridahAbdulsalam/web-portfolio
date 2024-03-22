@@ -1,38 +1,32 @@
-.nav {
+#nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px;
 }
-.nav .nav__name {
+#nav .nav__name {
   font-size: 20px;
   color: rgb(66, 30, 126);
-  display: inline-block;
-  width: 60%;
 }
-.nav .nav__name #nav__code-icon {
+#nav .nav__name #nav__code-icon {
   color: rgba(213, 176, 243, 0.911);
   margin-right: 5px;
 }
-.nav #nav__menu-icon {
+#nav #nav__menu-icon {
   color: grey;
-  padding-right: 20px;
 }
-.nav .nav__menu {
+#nav .nav__menu {
   display: none;
-  padding: 10px;
-  width: 100%;
   justify-content: space-evenly;
   align-items: center;
 }
-.nav .nav__menu li {
+#nav .nav__menu li {
   list-style-type: none;
 }
-.nav .nav__menu li a {
+#nav .nav__menu li a {
   text-decoration: none;
   color: grey;
 }
-.nav .nav__menu li button {
+#nav .nav__menu li button {
   border-radius: 5px;
   padding: 5px;
   background-color: rgba(213, 176, 243, 0.911);
@@ -41,29 +35,163 @@
   font-weight: bold;
 }
 
-.main {
-  border: solid 1px red;
-}
-.main .intro {
-  border: solid 1px orange;
-}
-.main .intro .intro__greeting-container {
-  border: solid 1px blue;
-}
-.main .intro .intro__greeting-container .intro__greeting {
-  border: solid 1px yellow;
+#main #intro .intro__greeting {
   font-size: 20px;
   color: grey;
+  padding-bottom: 30px;
 }
-.main .intro .intro__greeting-container .intro__bio {
-  border: solid 1px green;
+#main #intro .intro__bio {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   width: 40%;
-  font-size: 34px;
+  font-size: 40px;
   color: rgb(66, 30, 126);
+}
+#main #intro .intro__bio img {
+  display: none;
+  height: 20vh;
+}
+#main #about .about__title {
+  color: rgb(66, 30, 126);
+  font-size: 26px;
+}
+#main #about img {
+  max-width: 100%;
+  height: 35vh;
+  padding-top: 30px;
+}
+#main #about .about__description {
+  font-size: 15px;
+  color: grey;
+  padding: 20px;
+}
+#main #skills .skills__title {
+  padding: 10px;
+  font-size: 26px;
+  color: rgb(66, 30, 126);
+  width: 80%;
+  text-align: center;
+}
+#main #skills .skills__description {
+  text-align: center;
+  color: grey;
+  padding: 20px;
+  width: 80%;
+  margin: 0 auto;
+}
+#main #skills .skills__icons-container {
+  padding: 20%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 80%;
+}
+#main #skills .skills__icons-container .img {
+  display: block;
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+}
+#main .project__heading {
+  color: rgb(66, 30, 126);
+  font-size: 26px;
+  padding: 25px;
+}
+#main #project {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: space-between;
+}
+#main #project .project__img {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+}
+#main #project .project__img img {
+  max-width: 100%;
+}
+#main #project .project__card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  height: auto;
+  padding: 20px 0px;
+}
+#main #project .project__card .project__skillset {
+  font-size: 26px;
+  color: rgb(66, 30, 126);
+}
+#main #project .project__card .project__title {
+  font-size: 40px;
+  color: rgb(66, 30, 126);
+}
+#main #project .project__card .project__description {
+  padding-top: 20px;
+  padding-bottom: 15px;
+  width: 80%;
+}
+#main #project .project__card .project__buttons {
+  padding: 10px 0px;
+}
+#main #project .project__card .project__buttons button {
+  background-color: white;
+  border: black solid 1px;
+  border-radius: 5px;
+  padding: 10px 25px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+#footer {
+  background-color: black;
+}
+#footer .footer__icons {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 45%;
+}
+#footer .footer__icons li {
+  list-style-type: none;
+}
+#footer .footer__email {
+  padding-top: 30px;
+  font-size: 26px;
+  color: white;
+  text-align: center;
 }
 
 * {
-  margin: 0;
-  padding: 0;
+  margin: 0px;
+  padding: 0px;
   box-sizing: border-box;
+}
+
+.body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+.nav-container {
+  max-width: 100%;
+  padding: 10%;
+}
+
+.container {
+  max-width: 100%;
+  padding: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
 }/*# sourceMappingURL=styles.css.map */
