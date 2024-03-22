@@ -149,6 +149,11 @@
   font-size: 15px;
 }
 
+#footer {
+  border: solid 1px pink;
+  background-color: grey;
+}
+
 * {
   margin: 0px;
   padding: 0px;
