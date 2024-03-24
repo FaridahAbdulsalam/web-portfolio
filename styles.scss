@@ -35,5 +35,16 @@
     align-items: center; 
 }
 
+@media screen and (min-width: 1728px){
+    .container{
+        max-width: 100%;
+        padding: 2%;
+        display: flex;
+        flex-direction: column;
+        justify-items: center;   
+        align-items: center;
+    }
+}
+
 
 

@@ -69,6 +69,9 @@
     font-weight: bold;
   }
 }
+#main {
+  border: solid 1px red;
+}
 #main #intro .intro__greeting {
   font-size: 20px;
   color: grey;
@@ -82,9 +85,12 @@
   font-size: 40px;
   color: rgb(66, 30, 126);
 }
-#main #intro .intro__bio img {
+#main #intro .intro__bio .intro__cartoon {
   display: none;
   height: 20vh;
+}
+#main #intro .intro__look-button {
+  display: none;
 }
 #main #about .about__title {
   color: rgb(66, 30, 126);
@@ -183,6 +189,41 @@
   font-size: 15px;
 }
 
+@media screen and (min-width: 1728px) {
+  #main #intro {
+    background-color: rgba(213, 176, 243, 0.089);
+    padding: 10% 40%;
+  }
+  #main #intro .intro__greeting {
+    font-size: 28px;
+    color: grey;
+    padding-bottom: 30px;
+    width: 30vw;
+    text-align: center;
+  }
+  #main #intro .intro__bio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50vw;
+    font-size: 70px;
+    color: rgb(66, 30, 126);
+    text-align: center;
+  }
+  #main #intro .intro__look-button {
+    display: inline-block;
+    background-color: rgba(213, 176, 243, 0.911);
+    border: solid 1px rgb(66, 30, 126);
+    border-radius: 5px;
+    color: rgb(66, 30, 126);
+    padding: 15px 32px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+    box-shadow: 2px 2px 1px rgb(66, 30, 126);
+    margin-top: 30px;
+  }
+}
 #footer {
   background-color: black;
 }
@@ -228,4 +269,15 @@
   flex-direction: column;
   justify-items: center;
   align-items: center;
+}
+
+@media screen and (min-width: 1728px) {
+  .container {
+    max-width: 100%;
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+  }
 }/*# sourceMappingURL=styles.css.map */
