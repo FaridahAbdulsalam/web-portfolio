@@ -35,34 +35,10 @@
         }
         
     }
-
-    #about{
-        // border: solid 1px purple;
-
-        .about__title{
-            // border: solid 1px salmon;
-            color: $secondary-colour;
-            font-size: $secondary-fontsize;
-        }
-
-        img{
-            max-width: 100%;
-            height: 35vh;
-            padding-top: 30px;
-        }
-
-        .about__description{
-            // border: solid 1px orange;
-            font-size: $paragraphs;
-            color: $teirtiary-colour;
-            padding: 20px
-        }
-        
-    }
-
+    
     #skills{
         // border: 1px solid indianred;
-
+        
         .skills__title{
             // border: solid 1px blue;
             padding: 10px;
@@ -71,7 +47,7 @@
             width: 80%;
             text-align: center;
         }
-
+        
         .skills__description{
             // border: solid 1px red;
             text-align: center;
@@ -107,7 +83,7 @@
         padding: 25px;
     }
 
-
+    
     #project{
         // border: solid 1px #ff69b4;
         display: flex;
@@ -134,7 +110,7 @@
             align-items: flex-start;
             height: auto;
             padding: 20px 0px ;
-
+            
             .project__skillset{
                 font-size: $secondary-fontsize;
                 color: $secondary-colour;
@@ -153,7 +129,7 @@
         
             .project__buttons{
                 padding: 10px 0px;
-
+                
                 button{
                     background-color: white;
                     border: black solid 1px;
@@ -166,6 +142,30 @@
             }
             
         }
+    }
+
+    #about{
+        // border: solid 1px purple;
+
+        .about__title{
+            // border: solid 1px salmon;
+            color: $secondary-colour;
+            font-size: $secondary-fontsize;
+        }
+
+        img{
+            max-width: 100%;
+            height: 35vh;
+            padding-top: 30px;
+        }
+
+        .about__description{
+            // border: solid 1px orange;
+            font-size: $paragraphs;
+            color: $teirtiary-colour;
+            padding: 20px
+        }
+        
     }
 
 }
