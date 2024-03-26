@@ -223,6 +223,27 @@
     box-shadow: 2px 2px 1px rgb(66, 30, 126);
     margin-top: 30px;
   }
+  #main #skills .skills__description {
+    text-align: center;
+    color: grey;
+    padding: 20px;
+    width: 45%;
+    margin: 0 auto;
+  }
+  #main #skills .skills__icons-container {
+    display: flex;
+    gap: 50px;
+    justify-content: space-evenly;
+    align-items: center;
+    width: auto;
+    padding-top: 40px;
+  }
+  #main #skills .skills__icons-container .img {
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+  }
 }
 #footer {
   background-color: black;
