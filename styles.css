@@ -132,6 +132,9 @@
   flex-direction: column;
   gap: 20px;
   justify-content: space-between;
+  height: 160vh;
+  overflow: scroll;
+  overflow-x: hidden;
 }
 #main #project .project__img {
   display: grid;
@@ -147,7 +150,7 @@
   justify-content: center;
   align-items: flex-start;
   height: auto;
-  padding: 20px 0px;
+  padding: 20px 60px;
 }
 #main #project .project__card .project__skillset {
   font-size: 26px;
@@ -187,6 +190,15 @@
   font-size: 15px;
   color: grey;
   padding: 20px;
+}
+
+#project::-webkit-scrollbar {
+  width: 20px;
+  background-color: #f5f5f5;
+}
+
+#project::-webkit-scrollbar-thumb {
+  background-color: rgba(213, 176, 243, 0.089);
 }
 
 @media screen and (min-width: 1728px) {
@@ -243,6 +255,14 @@
     max-width: 100%;
     max-height: 100%;
     width: auto;
+  }
+  #main #project {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 20px;
+    height: auto;
+    overflow: auto;
   }
 }
 #footer {
