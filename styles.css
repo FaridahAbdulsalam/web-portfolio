@@ -210,7 +210,9 @@
   font-size: 15px;
   font-family: "Noticia Text";
   color: grey;
-  padding: 20px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
 }
 
 #project::-webkit-scrollbar {

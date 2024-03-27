@@ -177,7 +177,9 @@
             font-size: $paragraphs;
             font-family: $secondary-font;
             color: $teirtiary-colour;
-            padding: 20px
+            height: auto;
+            display: flex;
+            flex-direction: column;
         }
         
     }
