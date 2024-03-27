@@ -236,11 +236,7 @@
     margin-top: 30px;
   }
   #main #skills .skills__description {
-    text-align: center;
-    color: grey;
-    padding: 20px;
     width: 45%;
-    margin: 0 auto;
   }
   #main #skills .skills__icons-container {
     display: flex;
@@ -250,12 +246,6 @@
     width: auto;
     padding-top: 40px;
   }
-  #main #skills .skills__icons-container .img {
-    display: block;
-    max-width: 100%;
-    max-height: 100%;
-    width: auto;
-  }
   #main #project {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -263,6 +253,39 @@
     gap: 20px;
     height: auto;
     overflow: auto;
+  }
+  #main #about {
+    margin: 70px;
+  }
+  #main #about .about__title {
+    font-size: 50px;
+  }
+  #main #about .about__image {
+    height: 50vh;
+    width: 60vw;
+    padding: 0px;
+  }
+  #main #about .about__description {
+    font-size: 28px;
+  }
+  #about {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(3, 18vh);
+    height: 60vh;
+    width: auto;
+    gap: 20px;
+  }
+  .about__title {
+    grid-column: 1/2;
+    grid-row: 1/2;
+  }
+  .about__image {
+    grid-column: 5/span 2;
+    grid-row: 1/span 3;
+  }
+  .about__description {
+    grid-column: 1/span 3;
   }
 }
 #footer {
