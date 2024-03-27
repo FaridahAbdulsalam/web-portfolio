@@ -34,6 +34,9 @@
   color: rgb(66, 30, 126);
   font-weight: bold;
 }
+#nav .nav__menu li button:hover {
+  background-color: grey;
+}
 
 @media screen and (min-width: 1728px) {
   #nav {
@@ -50,6 +53,13 @@
     display: flex;
     justify-content: space-between;
     width: 30%;
+  }
+  #nav .nav__menu li a:hover {
+    background-color: rgba(213, 176, 243, 0.089);
+    border: solid 1px rgb(66, 30, 126);
+    border-radius: 2px;
+    padding: 5px;
+    color: rgb(66, 30, 126);
   }
   #nav .nav__menu li button {
     padding: 10px 30px;
@@ -223,6 +233,9 @@
     font-size: 15px;
     box-shadow: 2px 2px 1px rgb(66, 30, 126);
     margin-top: 30px;
+  }
+  #main #intro .intro__look-button:hover {
+    opacity: 0.7;
   }
   #main #skills .skills__title {
     font-size: 28px;
