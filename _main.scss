@@ -133,6 +133,11 @@
                     font-weight: bold;
                     font-size: $paragraphs;   
                 }
+
+                button:hover{
+                    background-color: $secondary-colour;
+                    color: white;
+                }
             }
             
         }

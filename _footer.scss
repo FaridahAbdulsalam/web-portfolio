@@ -14,11 +14,15 @@
         }
     }
 
-    .footer__email{
-        padding-top: 30px;
-        font-size: $secondary-fontsize;
-        color: white;
-        text-align: center;
+    a{
+        text-decoration: none;
+        
+        .footer__email{
+            padding-top: 30px;
+            font-size: $secondary-fontsize;
+            color: white;
+            text-align: center;
+        }
     }
 }
 

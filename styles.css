@@ -26,7 +26,7 @@
   text-decoration: none;
   color: grey;
 }
-#nav .nav__menu li button {
+#nav .nav__menu li #nav__button button {
   border-radius: 5px;
   padding: 5px;
   background-color: rgba(213, 176, 243, 0.911);
@@ -34,7 +34,7 @@
   color: rgb(66, 30, 126);
   font-weight: bold;
 }
-#nav .nav__menu li button:hover {
+#nav .nav__menu li #nav__button button:hover {
   background-color: grey;
 }
 
@@ -173,6 +173,10 @@
   text-align: center;
   font-weight: bold;
   font-size: 15px;
+}
+#main #project .project__card .project__buttons button:hover {
+  background-color: rgb(66, 30, 126);
+  color: white;
 }
 #main #about .about__title {
   color: rgb(66, 30, 126);
@@ -327,7 +331,10 @@
 #footer .footer__icons li {
   list-style-type: none;
 }
-#footer .footer__email {
+#footer a {
+  text-decoration: none;
+}
+#footer a .footer__email {
   padding-top: 30px;
   font-size: 26px;
   color: white;

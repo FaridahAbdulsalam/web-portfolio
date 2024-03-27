@@ -31,17 +31,21 @@
                 text-decoration: none;
                 color: $teirtiary-colour;
             }
-            button{
-                border-radius: 5px;
-                padding: 5px;
-                background-color: $primary-colour;
-                border: 1px solid $secondary-colour;
-                color: $secondary-colour;
-                font-weight: bold;
-            }
 
-            button:hover{
-                background-color: $teirtiary-colour;
+
+            #nav__button{
+                button{
+                    border-radius: 5px;
+                    padding: 5px;
+                    background-color: $primary-colour;
+                    border: 1px solid $secondary-colour;
+                    color: $secondary-colour;
+                    font-weight: bold;            
+                }
+    
+                button:hover{
+                    background-color: $teirtiary-colour;
+                }
             }
         }
     }
@@ -67,7 +71,6 @@
            width: 30%;
    
            li {
-
                 a:hover{
                     background-color: $faded-colour;
                     border: solid 1px $secondary-colour;
