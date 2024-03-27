@@ -125,6 +125,8 @@
   color: rgb(66, 30, 126);
   font-size: 26px;
   padding: 25px;
+  background: linear-gradient(rgba(213, 176, 243, 0.911), rgba(213, 176, 243, 0.911)) center bottom/auto 18px no-repeat;
+  padding-bottom: 5px;
 }
 #main #project {
   display: flex;
@@ -249,6 +251,9 @@
     align-items: center;
     width: auto;
     padding-top: 40px;
+  }
+  #main .project__heading {
+    font-size: 28px;
   }
   #main #project {
     display: grid;

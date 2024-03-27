@@ -72,11 +72,12 @@
         color:$secondary-colour;
         font-size: $secondary-fontsize;
         padding: 25px;
+        background: linear-gradient($primary-colour, $primary-colour) center bottom / auto 18px no-repeat;
+        padding-bottom: 5px;
     }
 
     
     #project{
-        // border: solid 1px #ff69b4;
         display: flex;
         flex-direction: column;
         gap:20px;
@@ -86,7 +87,6 @@
         overflow-x: hidden;
           
         .project__img{
-            // border: 1px solid blueviolet;
             display: grid;
             justify-content: center;
             align-content: center;
@@ -97,7 +97,6 @@
         }
 
         .project__card{
-            // border: 1px solid blueviolet;
             display: flex;
             flex-direction: column;
             justify-content: center;
@@ -140,10 +139,7 @@
     }
 
     #about{
-        // border: solid 1px purple;
-
         .about__title{
-            // border: solid 1px salmon;
             color: $secondary-colour;
             font-size: $secondary-fontsize;
         }
@@ -163,7 +159,6 @@
         }
 
         .about__description{
-            // border: solid 1px orange;
             font-size: $paragraphs;
             color: $teirtiary-colour;
             padding: 20px
@@ -240,8 +235,11 @@
             }
         }
 
+        .project__heading{
+            font-size: $m-fontsize;
+        }
+
         #project{
-            // border: solid 1px #ff69b4;
             display: grid;
             grid-template-columns: repeat(3, 1fr) ;
             grid-template-rows: repeat(2, 1fr);
