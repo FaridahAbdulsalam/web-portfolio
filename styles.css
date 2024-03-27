@@ -162,6 +162,7 @@
   font-size: 26px;
   font-family: "Noticia Text";
   color: rgba(213, 176, 243, 0.911);
+  text-transform: uppercase;
 }
 #main #project .project__card .project__title {
   font-size: 40px;
