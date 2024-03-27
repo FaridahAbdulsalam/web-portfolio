@@ -8,6 +8,7 @@
     .nav__name{
         font-size: $tiertiary-fontsize;
         color: $secondary-colour;
+        font-family: $primary-font;
 
         #nav__code-icon{
             color: $primary-colour;
@@ -26,6 +27,7 @@
 
         li {
             list-style-type: none;
+            font-family: $primary-font;
 
             a{
                 text-decoration: none;
@@ -40,7 +42,8 @@
                     background-color: $primary-colour;
                     border: 1px solid $secondary-colour;
                     color: $secondary-colour;
-                    font-weight: bold;            
+                    font-weight: bold;
+                    font-family: $primary-font;            
                 }
     
                 button:hover{

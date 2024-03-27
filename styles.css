@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Noticia+Text:ital,wght@0,400;0,700;1,400;1,700&family=Varela+Round&display=swap");
 #nav {
   display: flex;
   justify-content: space-between;
@@ -6,6 +7,7 @@
 #nav .nav__name {
   font-size: 20px;
   color: rgb(66, 30, 126);
+  font-family: "Varela Round";
 }
 #nav .nav__name #nav__code-icon {
   color: rgba(213, 176, 243, 0.911);
@@ -21,6 +23,7 @@
 }
 #nav .nav__menu li {
   list-style-type: none;
+  font-family: "Varela Round";
 }
 #nav .nav__menu li a {
   text-decoration: none;
@@ -33,6 +36,7 @@
   border: 1px solid rgb(66, 30, 126);
   color: rgb(66, 30, 126);
   font-weight: bold;
+  font-family: "Varela Round";
 }
 #nav .nav__menu li #nav__button button:hover {
   background-color: grey;
@@ -67,6 +71,7 @@
 }
 #main #intro .intro__greeting {
   font-size: 20px;
+  font-family: "Noticia Text";
   color: grey;
   padding-bottom: 30px;
 }
@@ -76,6 +81,7 @@
   align-items: center;
   width: 40%;
   font-size: 40px;
+  font-family: "Varela Round";
   color: rgb(66, 30, 126);
 }
 #main #intro .intro__bio .intro__cartoon {
@@ -88,6 +94,7 @@
 #main #skills .skills__title {
   padding: 10px;
   font-size: 26px;
+  font-family: "Varela Round";
   color: rgb(66, 30, 126);
   width: auto;
   text-align: center;
@@ -100,6 +107,7 @@
   padding: 20px;
   width: 80%;
   margin: 0 auto;
+  font-family: "Noticia Text";
 }
 #main #skills .skills__icons-container {
   padding: 20%;
@@ -120,6 +128,7 @@
 #main .project__heading {
   color: rgb(66, 30, 126);
   font-size: 26px;
+  font-family: "Varela Round";
   padding: 25px;
   background: linear-gradient(rgba(213, 176, 243, 0.911), rgba(213, 176, 243, 0.911)) center bottom/auto 18px no-repeat;
   padding-bottom: 5px;
@@ -151,16 +160,19 @@
 }
 #main #project .project__card .project__skillset {
   font-size: 26px;
-  color: rgb(66, 30, 126);
+  font-family: "Noticia Text";
+  color: rgba(213, 176, 243, 0.911);
 }
 #main #project .project__card .project__title {
   font-size: 40px;
+  font-family: "Varela Round";
   color: rgb(66, 30, 126);
 }
 #main #project .project__card .project__description {
   padding-top: 20px;
   padding-bottom: 15px;
   width: 80%;
+  font-family: "Noticia Text";
 }
 #main #project .project__card .project__buttons {
   padding: 10px 0px;
@@ -181,6 +193,7 @@
 #main #about .about__title {
   color: rgb(66, 30, 126);
   font-size: 26px;
+  font-family: "Varela Round";
 }
 #main #about img {
   max-width: 100%;
@@ -195,6 +208,7 @@
 }
 #main #about .about__description {
   font-size: 15px;
+  font-family: "Noticia Text";
   color: grey;
   padding: 20px;
 }
@@ -337,6 +351,7 @@
 #footer a .footer__email {
   padding-top: 30px;
   font-size: 26px;
+  font-family: "Noticia Text";
   color: white;
   text-align: center;
 }

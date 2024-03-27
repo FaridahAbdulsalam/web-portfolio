@@ -4,6 +4,7 @@
     #intro{       
         .intro__greeting{
             font-size: $tiertiary-fontsize ;
+            font-family: $secondary-font;
             color: $teirtiary-colour;
             padding-bottom: 30px;
             
@@ -15,6 +16,7 @@
             align-items: center;
             width: 40%;
             font-size: $primary-fontsize;
+            font-family: $primary-font;
             color: $secondary-colour;
 
             .intro__cartoon{
@@ -34,6 +36,7 @@
         .skills__title{
             padding: 10px;
             font-size: $secondary-fontsize;
+            font-family: $primary-font;
             color: $secondary-colour;
             width: auto;
             text-align: center;
@@ -47,6 +50,8 @@
             padding: 20px;
             width: 80%;
             margin: 0 auto;
+            font-family: $secondary-font;
+
         }
 
         .skills__icons-container{
@@ -71,6 +76,7 @@
     .project__heading{
         color:$secondary-colour;
         font-size: $secondary-fontsize;
+        font-family: $primary-font;
         padding: 25px;
         background: linear-gradient($primary-colour, $primary-colour) center bottom / auto 18px no-repeat;
         padding-bottom: 5px;
@@ -107,11 +113,13 @@
             
             .project__skillset{
                 font-size: $secondary-fontsize;
-                color: $secondary-colour;
+                font-family: $secondary-font;
+                color: $primary-colour;
             }
 
             .project__title{
                 font-size: $primary-fontsize;
+                font-family: $primary-font;
                 color: $secondary-colour;
             }
 
@@ -119,6 +127,7 @@
                 padding-top: 20px;
                 padding-bottom: 15px;
                 width: 80%;
+                font-family: $secondary-font;  
             }
         
             .project__buttons{
@@ -147,6 +156,7 @@
         .about__title{
             color: $secondary-colour;
             font-size: $secondary-fontsize;
+            font-family: $primary-font;
         }
 
         img{
@@ -165,6 +175,7 @@
 
         .about__description{
             font-size: $paragraphs;
+            font-family: $secondary-font;
             color: $teirtiary-colour;
             padding: 20px
         }
