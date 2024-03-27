@@ -329,7 +329,6 @@
     align-items: center;
   }
   #footer .footer__icons {
-    display: flex;
     justify-content: flex-end;
     gap: 12px;
     width: 10%;
