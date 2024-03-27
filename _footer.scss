@@ -1,14 +1,12 @@
 @use "./variables" as *;
 
 #footer{
-    // border: solid 1px pink;
     background-color: black;
 
     .footer__icons{
         display: flex;
         justify-content: space-evenly;
         align-items: center;
-        // border: solid 1px pink;
         width: 45%;
 
         li{
@@ -16,10 +14,39 @@
         }
     }
 
-    .footer__email{
-        padding-top: 30px;
-        font-size: $secondary-fontsize;
-        color: white;
-        text-align: center;
+    a{
+        text-decoration: none;
+
+        .footer__email{
+            padding-top: 30px;
+            font-size: $secondary-fontsize;
+            font-family: $secondary-font;
+            color: white;
+            text-align: center;
+        }
+    }
+}
+
+@media screen and (min-width: 1728px){
+    #footer{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        align-items: center;
+
+        .footer__icons{
+            justify-content: flex-end;
+            gap: 12px;
+            width: 10%;
+            padding-right: 5%;
+        }
+
+        #footer__cv{
+            display: none;
+        }
+
+        .footer__email{
+            padding-left: 5%;
+        }
     }
 }

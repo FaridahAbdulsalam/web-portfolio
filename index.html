@@ -23,10 +23,12 @@
     <i class="fa-solid fa-bars fa-xl" id="nav__menu-icon"></i>
     <ul class="nav__menu">
         <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Projects</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#project">Projects</a></li>
         <li>
-            <button class="nav__button nav__button--active">Get in touch</button>
+            <a href="#footer" id="nav__button">
+                <button class="nav__button nav__button--active">Get in touch</button>
+            </a>
         </li>
     </ul>
   </nav>
@@ -36,42 +38,40 @@
     <div  class="container" id="intro">
         <h2 class="intro__greeting">👋🏾 Hey! I'm Faridah Salami</h2>
         <h1 class="intro__bio">A Junior Software Developer based in the UK.
-            <img src="./images/tech art 1.jpg" alt="tech art" class="intro__cartoon"> 
+            <img src="./images/tech art 1.jpg" alt="tech art" class="intro__cartoon">
         </h1>
-            <!-- may need another div around the img but will decide when styling -->
+        <br>
+        <a href="#project">
+            <button class="intro__look-button">Take a look at my work <i class="fa-solid fa-arrow-turn-down" id="intro__button-icon"></i></button>
+        </a>
     </div>
     
-    <div  class="container" id="about">
-        <h1 class="about__title">About Me</h1>
-        <img src="./images/Faridah.jpg" alt="Picture of Faridah" class="about__image">
-        <p class="about__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi enim facere vel incidunt, animi sint, dolor magni mollitia deserunt voluptatem praesentium minima esse ducimus consequuntur nam earum facilis dolorem similique.</p>
-        <p class="about__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi enim facere vel incidunt, animi sint, dolor magni mollitia deserunt voluptatem praesentium minima esse ducimus consequuntur nam earum facilis dolorem similique.</p>
-    </div>
-
+    
     <div  class="container" id="skills">
         <h1 class="skills__title">Technical Skills</h1>
-        <p class="skills__description">Maecenas accumsan tincidunt id et in ut diam sit. Metus, nec, augue urna gravida nisl, tortor sapien nec sollicitudin.</p>
+        <p class="skills__description">Here you can see the library of skills I have gained and had experience with during the short period of time I dedicated to my education in becoming a software developer.</p>
         <div class="skills__icons-container">
-            <img src="./images/Technical Skill Iconspring-boot.png" alt="Spring Boot Icon" class="skills__icon">
-            <img src="./images/Technical Skill IconJava.png" alt="Java Icon" class="skills__icon">
-            <img src="./images/Technical Skill IconReact.png" alt="React Icon" class="skills__icon">
-            <img src="./images/Technical Skill IconBEM.png" alt="BEM Icon" class="skills__icon">
-            <img src="./images/Technical Skill IconSCSS.png" alt="SCSS Icon" class="skills__icon">
-            <img src="/images/Technical Skill IconJS.png" alt="JS Icon" class="skills__icon">
-            <img src="/images/Technical Skill IconCSS.png" alt="CSS3 Icon" class="skills__icon">
-            <img src="/images/Technical Skill IconHTML.png" alt="HTML5 Icon" class="skills__icon">
-            <img src="/images/Technical Skill IconGIT.png" alt="Git Icon" class="skills__icon">
+            <img src="/images/Group 20GITIcon.png" alt="Git Icon" class="skills__icon">
+            <img src="/images/Group 4HTMLIcon.png" alt="HTML5 Icon" class="skills__icon">
+            <img src="/images/Group 5CSSIcon.png" alt="CSS3 Icon" class="skills__icon">
+            <img src="/images/Group 6JSIcon.png" alt="JS Icon" class="skills__icon">
+            <img src="./images/Group 7SCSSIcon.png" alt="SCSS Icon" class="skills__icon">
+            <img src="./images/Group 8BEMIcon.png" alt="BEM Icon" class="skills__icon">
+            <img src="./images/Group 10ReactIcon.png" alt="React Icon" class="skills__icon">
+            <img src="./images/Group 15JavaIcon.png" alt="Java Icon" class="skills__icon">
+            <img src="./images/Group 16SpringBootIcon.png" alt="Spring Boot Icon" class="skills__icon">
         </div>
     </div>
-
+    
+    
     <h2 class="project__heading">My Projects</h2>
     
-
+    
     <div id="project" class="container">
         <!-- all projects go inside this div -->
         <div class="project__container">
             <div class="project__img">
-                <img src="./images/ImageProject-preview.png" alt="project image preview" class="project__image">
+                <img src="./images/Group 45Project-preview.png" alt="project image preview" class="project__image">
             </div>
             <div class="project__card">
                 <h4 class="project__skillset">React</h4>
@@ -83,15 +83,31 @@
                 </div>
             </div>
         </div>
-<!-- Project 2 -->
-
+        <!-- Project 2 -->
+        
         <div class="project__container">
             <div class="project__img">
-                <img src="./images/ImageProject-preview.png" alt="project image preview" class="project__image">
+                <img src="./images/Group 45Project-preview.png" alt="project image preview" class="project__image">
+            </div>
+            <div class="project__card">
+                <h4 class="project__skillset">Java, Spring Boot</h4>
+                <h1 class="project__title">REST API</h1>
+                <p class="project__description">Maecenas accumsan tincidunt id et in ut diam sit. Metus, nec, augue urna gravida nisl, tortor sapien nec sollicitudin.</p>
+                <div class="project__buttons">
+                    <button class="project__code-btn project__code-btn--active">Code <i class="fa-solid fa-code" id="nav__code-icon"></i></button>
+                    <button class="project__preview-btn project__preview-btn--active">Preview <i class="fa-solid fa-code" id="nav__code-icon"></i></button>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Project 3 -->
+        <div class="project__container">
+            <div class="project__img">
+                <img src="./images/Group 45Project-preview.png" alt="project image preview" class="project__image">
             </div>
             <div class="project__card">
                 <h4 class="project__skillset">React</h4>
-                <h1 class="project__title">Client Project 2</h1>
+                <h1 class="project__title">Punk API</h1>
                 <p class="project__description">Maecenas accumsan tincidunt id et in ut diam sit. Metus, nec, augue urna gravida nisl, tortor sapien nec sollicitudin.</p>
                 <div class="project__buttons">
                     <button class="project__code-btn project__code-btn--active">Code <i class="fa-solid fa-code" id="nav__code-icon"></i></button>
@@ -100,14 +116,15 @@
             </div>
         </div>
 
-<!-- Project 3 -->
+        <!-- Project 4 -->
+
         <div class="project__container">
             <div class="project__img">
-                <img src="./images/ImageProject-preview.png" alt="project image preview" class="project__image">
+                <img src="./images/Group 45Project-preview.png" alt="project image preview" class="project__image">
             </div>
             <div class="project__card">
                 <h4 class="project__skillset">React</h4>
-                <h1 class="project__title">Client Project 2</h1>
+                <h1 class="project__title">Client Project </h1>
                 <p class="project__description">Maecenas accumsan tincidunt id et in ut diam sit. Metus, nec, augue urna gravida nisl, tortor sapien nec sollicitudin.</p>
                 <div class="project__buttons">
                     <button class="project__code-btn project__code-btn--active">Code <i class="fa-solid fa-code" id="nav__code-icon"></i></button>
@@ -116,24 +133,73 @@
             </div>
         </div>
 
+        <!-- Project 5 -->
+
+        <div class="project__container">
+            <div class="project__img">
+                <img src="./images/Group 45Project-preview.png" alt="project image preview" class="project__image">
+            </div>
+            <div class="project__card">
+                <h4 class="project__skillset">Java, Spring Boot</h4>
+                <h1 class="project__title">REST API</h1>
+                <p class="project__description">Maecenas accumsan tincidunt id et in ut diam sit. Metus, nec, augue urna gravida nisl, tortor sapien nec sollicitudin.</p>
+                <div class="project__buttons">
+                    <button class="project__code-btn project__code-btn--active">Code <i class="fa-solid fa-code" id="nav__code-icon"></i></button>
+                    <button class="project__preview-btn project__preview-btn--active">Preview <i class="fa-solid fa-code" id="nav__code-icon"></i></button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Project 6 -->
+
+        <div class="project__container">
+            <div class="project__img">
+                <img src="./images/Group 45Project-preview.png" alt="project image preview" class="project__image">
+            </div>
+            <div class="project__card">
+                <h4 class="project__skillset">React</h4>
+                <h1 class="project__title">Punk API</h1>
+                <p class="project__description">Maecenas accumsan tincidunt id et in ut diam sit. Metus, nec, augue urna gravida nisl, tortor sapien nec sollicitudin.</p>
+                <div class="project__buttons">
+                    <button class="project__code-btn project__code-btn--active">Code <i class="fa-solid fa-code" id="nav__code-icon"></i></button>
+                    <button class="project__preview-btn project__preview-btn--active">Preview <i class="fa-solid fa-code" id="nav__code-icon"></i></button>
+                </div>
+            </div>
+        </div>
+        
+        
     </div>  
+    
+    <div  class="container" id="about">
+        <h1 class="about__title">About Me</h1>
+        <img src="./images/Faridah.jpg" alt="Picture of Faridah" class="about__image">
+        <img src="./images/ShapeRound-ball.png" id="about__roundball">
+        <img src="./images/Elements-organic-shape-line-curlysquiggle.png" id="about__squiggle">
+        <p class="about__description">I am a dedicated and hard-working individual. I like to believe that I am driven individual who discovered her love for technology during my secondary school years, leading me to pursue a degree in Computer Science to deepen my understanding. </p>
+        <p class="about__description"> I have solidified my passion for the technology industry and decided this is the path I am finally going to pursue. Now I actively seek an environment that, challenges me, and  provides a platform for to express my  creative skills.</p>
+    </div>
+</main> 
 
-  </main> 
-
-  <!-- Footer at the bottom of page -->
-  <footer class="container" id="footer">
+<!-- Footer at the bottom of page -->
+<footer class="container" id="footer">
     <ul class="footer__icons">
         <li>
-            <img src="./images/Group 61gitHub icon.png" alt="GitHub Icon" class="footer__icons-image">
+            <a href="https://github.com/FaridahAbdulsalam">
+                <img src="./images/Group 61gitHub icon.png" alt="GitHub Icon" class="footer__icons-image" id="footer__github">
+            </a>
         </li>
         <li>
-            <img src="./images/Group 60LinkedIn Icon.png" alt="LinkedIn Icon" class="footer__icons-image">
+            <a href="https://www.linkedin.com/in/faridah-abdulsalam-a03226155/">
+                <img src="./images/Group 60LinkedIn Icon.png" alt="LinkedIn Icon" class="footer__icons-image" id="footer__linkedin">
+            </a>
         </li>
         <li>
-            <img src="./images/Group 39808CV-Icon.png" alt="CV Icon" class="footer__icons-image">
+            <img src="./images/Group 39808CV-Icon.png" alt="CV Icon" class="footer__icons-image" id="footer__cv">
         </li>
     </ul>
-    <p class="footer__email">f.salami@outlook.com</p>
+    <a href="mailto: f.salami@outlook.com">
+        <p class="footer__email">f.salami@outlook.com</p>
+    </a>
   </footer>
 
 </body>
