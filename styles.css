@@ -69,6 +69,10 @@
     padding: 10px 30px;
   }
 }
+#main #intro {
+  background-color: rgba(213, 176, 243, 0.089);
+  border-radius: 5px;
+}
 #main #intro .intro__greeting {
   font-size: 20px;
   font-family: "Noticia Text";
@@ -79,8 +83,8 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 40%;
-  font-size: 40px;
+  width: auto;
+  font-size: 50px;
   font-family: "Varela Round";
   color: rgb(66, 30, 126);
 }
@@ -172,7 +176,7 @@
 #main #project .project__card .project__description {
   padding-top: 20px;
   padding-bottom: 15px;
-  width: 80%;
+  width: auto;
   font-family: "Noticia Text";
 }
 #main #project .project__card .project__buttons {
@@ -214,6 +218,7 @@
   height: auto;
   display: flex;
   flex-direction: column;
+  padding-top: 20px;
 }
 
 #project::-webkit-scrollbar {
@@ -227,7 +232,6 @@
 
 @media screen and (min-width: 1728px) {
   #main #intro {
-    background-color: rgba(213, 176, 243, 0.089);
     padding: 10% 40%;
   }
   #main #intro .intro__greeting {
