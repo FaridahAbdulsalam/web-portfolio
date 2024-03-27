@@ -69,9 +69,6 @@
     font-weight: bold;
   }
 }
-#main {
-  border: solid 1px red;
-}
 #main #intro .intro__greeting {
   font-size: 20px;
   color: grey;
@@ -96,8 +93,10 @@
   padding: 10px;
   font-size: 26px;
   color: rgb(66, 30, 126);
-  width: 80%;
+  width: auto;
   text-align: center;
+  background: linear-gradient(rgba(213, 176, 243, 0.911), rgba(213, 176, 243, 0.911)) center bottom/auto 18px no-repeat;
+  padding-bottom: 5px;
 }
 #main #skills .skills__description {
   text-align: center;
@@ -214,15 +213,11 @@
   }
   #main #intro .intro__greeting {
     font-size: 28px;
-    color: grey;
-    padding-bottom: 30px;
     width: 30vw;
     text-align: center;
   }
   #main #intro .intro__bio {
-    display: flex;
     justify-content: center;
-    align-items: center;
     width: 50vw;
     font-size: 70px;
     color: rgb(66, 30, 126);
@@ -240,6 +235,9 @@
     font-size: 15px;
     box-shadow: 2px 2px 1px rgb(66, 30, 126);
     margin-top: 30px;
+  }
+  #main #skills .skills__title {
+    font-size: 28px;
   }
   #main #skills .skills__description {
     width: 45%;
@@ -280,6 +278,7 @@
     display: inline-block;
     width: auto;
     height: auto;
+    padding-bottom: 90px;
   }
   #main #about .about__description {
     font-size: 28px;

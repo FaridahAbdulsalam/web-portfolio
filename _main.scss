@@ -1,13 +1,8 @@
 @use "./variables" as *;
 
 #main{
-    border: solid 1px red;
-
-    #intro{
-        // border: solid 1px orange;       
-        
+    #intro{       
         .intro__greeting{
-            // border: solid 1px yellow;
             font-size: $tiertiary-fontsize ;
             color: $teirtiary-colour;
             padding-bottom: 30px;
@@ -18,8 +13,7 @@
             display: flex;
             justify-content: space-between;
             align-items: center;
-            // border: solid 1px green;
-            width: 40%; //change to in media query
+            width: 40%;
             font-size: $primary-fontsize;
             color: $secondary-colour;
 
@@ -36,20 +30,18 @@
         
     }
     
-    #skills{
-        // border: 1px solid indianred;
-        
+    #skills{     
         .skills__title{
-            // border: solid 1px blue;
             padding: 10px;
             font-size: $secondary-fontsize;
             color: $secondary-colour;
-            width: 80%;
+            width: auto;
             text-align: center;
+            background: linear-gradient($primary-colour, $primary-colour) center bottom / auto 18px no-repeat;
+            padding-bottom: 5px;
         }
         
         .skills__description{
-            // border: solid 1px red;
             text-align: center;
             color: $teirtiary-colour;
             padding: 20px;
@@ -58,7 +50,6 @@
         }
 
         .skills__icons-container{
-            // border: solid 1px green;
             padding: 20%;
             display: grid;
             grid-template-columns: repeat(3, 1fr);
@@ -201,20 +192,13 @@
             padding: 10% 40%;
 
             .intro__greeting{
-                // border: solid 1px yellow;
                 font-size: $m-fontsize;
-                color: $teirtiary-colour;
-                padding-bottom: 30px;
                 width: 30vw;
                 text-align: center;
             }
-         
 
             .intro__bio{
-                display: flex;
                 justify-content: center;
-                align-items: center;
-                // border: solid 1px green;
                 width: 50vw; 
                 font-size: $xxl-fontsize;
                 color: $secondary-colour;
@@ -238,13 +222,15 @@
         }
 
         #skills{
-
+            .skills__title{
+                font-size: $m-fontsize;
+            }
+            
             .skills__description{
                 width: 45%;
             }
 
             .skills__icons-container {
-                // border: solid 1px green;
                 display: flex;
                 gap: 50px;
                 justify-content: space-evenly;
@@ -287,6 +273,7 @@
                 display: inline-block;
                 width: auto;
                 height: auto;
+                padding-bottom: 90px;
             }
           
             .about__description{
